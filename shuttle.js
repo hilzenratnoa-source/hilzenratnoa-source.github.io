@@ -26,7 +26,7 @@ window.openShuttle=function(fb){
   if(!ENDPOINT){if(fb)fb();else window.open(FALLBACK,'_blank');return}
   if(!document.getElementById('sh-css')){var s=document.createElement('style');s.id='sh-css';s.textContent=css;document.head.appendChild(s)}
   var ov=el(`<div id="sh-ov"><div id="sh-box" role="dialog" aria-label="הרשמה להסעה"><button id="sh-x" aria-label="סגירה">×</button>
-  <form id="sh-form" novalidate><h3>הסעות</h3><p class="sub">ספרו לנו אם תרצו הסעה, ונדאג לכל השאר 🚌</p>
+  <form id="sh-form" novalidate><h3>הסעות</h3><p class="sub">צריכים הסעה? תירשמו כאן – נארגן הסעות בהתאם לביקוש 🚌</p>
   <label class="f">שם מלא <span class="req">*</span></label><input type="text" name="name" autocomplete="name" required>
   <label class="f">צריכים הסעה? <span class="req">*</span></label>
   <div class="sh-seg"><label><input type="radio" name="need" value="כן"><span>כן</span></label><label><input type="radio" name="need" value="לא"><span>לא</span></label></div>
