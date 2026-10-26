@@ -1,6 +1,6 @@
 (function(){
 // Paste the Apps Script Web App URL here. Empty = fall back to the Welcome page.
-var ENDPOINT = '';
+var ENDPOINT = 'https://script.google.com/macros/s/AKfycbxS9YNQcol1QmNWv1S5WsQgUhNtGnbMeRvLf2j_ldKlwAJt_0L9xZFgVUIJg4UjV6IG/exec';
 var FALLBACK = 'https://app.welcome-rsvp.com/he/wedding-website/Noa_%26_Gilad';
 var css = `
 #sh-ov{position:fixed;inset:0;z-index:9999;background:rgba(20,24,16,.82);display:flex;align-items:flex-end;justify-content:center;font-family:Assistant,Heebo,Arial,sans-serif;direction:rtl}
